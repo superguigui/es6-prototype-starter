@@ -8,11 +8,7 @@
     "prod": "browserify src/index.js --t babelify | uglifyjs -nm > static/build.js"
   },
   "keywords": [
-    "es6",
-    "experiment",
-    "creative",
-    "code",
-    "javascript"
+    "es6"
   ],
   "author": "Guillaume Gouessan <guillaume.gouessan@gmail.com>",
   "license": "ISC",
