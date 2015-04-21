@@ -24,7 +24,7 @@ This starter uses
 
 ### Start
 
-Launches Budo server (with broserfiy and watchify) with livereload. Uses for dev purpose.
+Launches Budo server (with broserify and watchify) with livereload. Use it for dev purpose.
 
 ```bash
 npm start
@@ -32,7 +32,7 @@ npm start
 
 ### Prod
 
-Build an actual build.js file in static folder that you can use in production. Use it for deployment purpose
+Build an actual build.js file in static folder that you can use in production. Use it for deployment purpose.
 
 ```bash
 npm run prod
