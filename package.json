@@ -18,6 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel": "^5.1.11",
+    "babelify": "^6.0.2",
     "browserify": "^9.0.8",
     "budo": "^3.1.1",
     "garnish": "^2.1.3",
