@@ -1,0 +1,30 @@
+{
+  "name": "es6-experiment-starter",
+  "version": "1.0.0",
+  "description": "ES6 starter for quick prototypes",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "budo src/index.js:build.js --live --dir static -t babelify | garnish",
+    "prod": "browserify src/index.js --t babelify | uglifyjs -nm > static/build.js"
+  },
+  "keywords": [
+    "es6",
+    "experiment",
+    "creative",
+    "code",
+    "javascript"
+  ],
+  "author": "Guillaume Gouessan <guillaume.gouessan@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.1.11",
+    "browserify": "^9.0.8",
+    "budo": "^3.1.1",
+    "garnish": "^2.1.3",
+    "uglify-js": "^2.4.20",
+    "watchify": "^3.1.2"
+  },
+  "dependencies": {
+    "domready": "^1.0.7"
+  }
+}
