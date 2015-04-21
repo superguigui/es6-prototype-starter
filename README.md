@@ -14,10 +14,10 @@ npm i
 ## Dependencies
 
 This starter uses 
-[Babel](http://google.com),
-[Budo](http://google.com),
-[Browserify](http://google.com),
-[Watchify](http://google.com)
+[Babel](https://github.com/babel/babel),
+[Budo](https://github.com/mattdesl/budo),
+[Browserify](http://browserify.org/),
+[Watchify](https://github.com/substack/watchify)
 
 
 ## Tasks
